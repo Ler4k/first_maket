@@ -1,6 +1,6 @@
 
 body{
-    width:100%;
+    width:960px;
     display:flex;
     margin: 0 auto;
     margin-top:25px;
@@ -43,37 +43,51 @@ header{
     width: 279px;
     height: 108px;
 
-
 }
 #b3{
-
+    display: flex;
+    justify-content: end;
     width: 513px;
     height: 108px;
-    text-align:right;
-    line-height: 12px;
-}
-.num{
-    padding-right: 10px;
-    padding-top: 10px;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: "Arial MT",serif;
 
 }
-.main-t{
-    padding-top: 15px;
-    font-family: "Arial - Bold MT",serif;
-    padding-left: 20px;
+#num{
+    display: flex;
+    padding: 25px;
+    width: 160px;
+    height: 58px;
+    color: #ffffff;
+    font-family:"Arial MT",sans-serif;
     font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    flex-wrap:wrap;
+    justify-content: right;
+}
+.main-t{
+    width: 700px;
+    height: 168px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: "Arial MT",sans-serif;
+    padding-left: 20px;
+    font-size: 13px;
     color: #777777;
     line-height: 15px;
 }
-.list-m{
+#list-m{
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 25px;
-    font-size: 13px;
+    list-style-type: square;
 }
+
 a{
-    color:#ffffff;
+    color: #ffffff;
 }
 #side-menu{
     background-color: #777777;
@@ -119,8 +133,8 @@ a{
     height: 200px;
     background-color: #dcdcdc;
     color: #777777;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 18px;
+    padding-top: 23px;
     font-size: 14px;
     box-sizing:border-box;
 }
@@ -161,16 +175,17 @@ margin-top: 33px;
 
 }
 li {
-    font-family: "Arial MT",serif;
-    font-size: 14px;
+    font-family: "Arial MT",sans-serif;
+    font-size: 13px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
 
 }
 .t-menu{
-    padding-left: 10px;
+    padding: 15px 25px 17px 13px;
 }
 ul{
     color: #ffffff;
+    list-style-type: square;
 }
